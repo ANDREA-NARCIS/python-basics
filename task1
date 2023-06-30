@@ -1,0 +1,7 @@
+a = input("was i present for live sessionday1 = ")
+b = input("what was taught on day1 = ")
+name = input("Enter your name = ")
+print(f"{name} was present for python live session day 1.") 
+print(f"Review = {b}") 
+print(f"Rating = {a}")
+print("Andrea Narcis compleated day1 task")
