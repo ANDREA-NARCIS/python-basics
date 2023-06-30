@@ -1,0 +1,29 @@
+#ceate a list of 10 index values, add 2 new values, delete 3 values, slice it
+a= ['andrea', 'akshat', 'karan', 'anamika', 'shruti','willi','veronica','christina','jessica','amanda','gavin']
+a.append(3)
+a.append(2)
+print(a)
+a.pop(0)
+a.pop(-4)
+a.pop(-1)
+print(a)
+a= a[2:] 
+print(a)
+
+
+#create a dictionary, add key values, delate key values
+my_dictionary = {"Name" : ['andrea', 'akshat', 'karan', 'anamika', 'shruti'], "Score": [89,93,80,88,92] }
+my_dictionary["Name"]
+my_dictionary["Name"][0]
+print(my_dictionary["Name"][0])
+del my_dictionary["Score"]
+print(my_dictionary)
+
+
+#create a list withh dupicates and convert it into set and than back to list
+a= ['andrea', 'akshat', 'karan', 'anamika', 'shruti','andy','shruti','karan','willi','veronica','christina','akshat','jessica','amanda','gavin']
+print(a)
+a= set(a)
+print(a)
+a= list(a)
+print(a)
